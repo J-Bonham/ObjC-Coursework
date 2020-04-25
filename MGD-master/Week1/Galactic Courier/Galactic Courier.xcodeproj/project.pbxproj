@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		177A49051AFC38670068F7A9 /* bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 177A49041AFC38670068F7A9 /* bg1.jpg */; };
+		177A49071AFC48B20068F7A9 /* asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 177A49061AFC48B20068F7A9 /* asteroid.png */; };
+		177A490E1AFC51980068F7A9 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 177A490D1AFC51980068F7A9 /* hit.mp3 */; };
+		177A49121AFC547D0068F7A9 /* repair.png in Resources */ = {isa = PBXBuildFile; fileRef = 177A49111AFC547D0068F7A9 /* repair.png */; };
+		177A49161AFC55470068F7A9 /* thruster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 177A49151AFC55470068F7A9 /* thruster.mp3 */; };
+		17EAA5571AF8389600E3B061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EAA5561AF8389600E3B061 /* main.m */; };
+		17EAA55A1AF8389600E3B061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EAA5591AF8389600E3B061 /* AppDelegate.m */; };
+		17EAA55D1AF8389600E3B061 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EAA55C1AF8389600E3B061 /* GameScene.m */; };
+		17EAA55F1AF8389600E3B061 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 17EAA55E1AF8389600E3B061 /* GameScene.sks */; };
+		17EAA5621AF8389600E3B061 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EAA5611AF8389600E3B061 /* GameViewController.m */; };
+		17EAA5651AF8389600E3B061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EAA5631AF8389600E3B061 /* Main.storyboard */; };
+		17EAA5671AF8389600E3B061 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17EAA5661AF8389600E3B061 /* Images.xcassets */; };
+		17EAA56A1AF8389600E3B061 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17EAA5681AF8389600E3B061 /* LaunchScreen.xib */; };
+		17EAA5761AF8389600E3B061 /* Galactic_CourierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EAA5751AF8389600E3B061 /* Galactic_CourierTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17EAA5701AF8389600E3B061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17EAA5491AF8389600E3B061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17EAA5501AF8389600E3B061;
+			remoteInfo = "Galactic Courier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		177A49041AFC38670068F7A9 /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg1.jpg; sourceTree = "<group>"; };
+		177A49061AFC48B20068F7A9 /* asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = asteroid.png; path = Images.xcassets/asteroid.imageset/asteroid.png; sourceTree = "<group>"; };
+		177A490D1AFC51980068F7A9 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
+		177A49111AFC547D0068F7A9 /* repair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repair.png; sourceTree = "<group>"; };
+		177A49151AFC55470068F7A9 /* thruster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thruster.mp3; sourceTree = "<group>"; };
+		17EAA5511AF8389600E3B061 /* Galactic Courier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Galactic Courier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EAA5551AF8389600E3B061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17EAA5561AF8389600E3B061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17EAA5581AF8389600E3B061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17EAA5591AF8389600E3B061 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17EAA55B1AF8389600E3B061 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		17EAA55C1AF8389600E3B061 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		17EAA55E1AF8389600E3B061 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		17EAA5601AF8389600E3B061 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		17EAA5611AF8389600E3B061 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		17EAA5641AF8389600E3B061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17EAA5661AF8389600E3B061 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17EAA5691AF8389600E3B061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		17EAA56F1AF8389600E3B061 /* Galactic CourierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Galactic CourierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EAA5741AF8389600E3B061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17EAA5751AF8389600E3B061 /* Galactic_CourierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Galactic_CourierTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17EAA54E1AF8389600E3B061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EAA56C1AF8389600E3B061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177A49131AFC54D20068F7A9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				177A490D1AFC51980068F7A9 /* hit.mp3 */,
+				177A49151AFC55470068F7A9 /* thruster.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		177A49141AFC54DB0068F7A9 /* IMG */ = {
+			isa = PBXGroup;
+			children = (
+				177A49061AFC48B20068F7A9 /* asteroid.png */,
+				177A49041AFC38670068F7A9 /* bg1.jpg */,
+				177A49111AFC547D0068F7A9 /* repair.png */,
+			);
+			name = IMG;
+			sourceTree = "<group>";
+		};
+		17EAA5481AF8389600E3B061 = {
+			isa = PBXGroup;
+			children = (
+				17EAA5531AF8389600E3B061 /* Galactic Courier */,
+				17EAA5721AF8389600E3B061 /* Galactic CourierTests */,
+				17EAA5521AF8389600E3B061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17EAA5521AF8389600E3B061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17EAA5511AF8389600E3B061 /* Galactic Courier.app */,
+				17EAA56F1AF8389600E3B061 /* Galactic CourierTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17EAA5531AF8389600E3B061 /* Galactic Courier */ = {
+			isa = PBXGroup;
+			children = (
+				177A49141AFC54DB0068F7A9 /* IMG */,
+				177A49131AFC54D20068F7A9 /* Sounds */,
+				17EAA5581AF8389600E3B061 /* AppDelegate.h */,
+				17EAA5591AF8389600E3B061 /* AppDelegate.m */,
+				17EAA55B1AF8389600E3B061 /* GameScene.h */,
+				17EAA55C1AF8389600E3B061 /* GameScene.m */,
+				17EAA55E1AF8389600E3B061 /* GameScene.sks */,
+				17EAA5601AF8389600E3B061 /* GameViewController.h */,
+				17EAA5611AF8389600E3B061 /* GameViewController.m */,
+				17EAA5631AF8389600E3B061 /* Main.storyboard */,
+				17EAA5661AF8389600E3B061 /* Images.xcassets */,
+				17EAA5681AF8389600E3B061 /* LaunchScreen.xib */,
+				17EAA5541AF8389600E3B061 /* Supporting Files */,
+			);
+			path = "Galactic Courier";
+			sourceTree = "<group>";
+		};
+		17EAA5541AF8389600E3B061 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17EAA5551AF8389600E3B061 /* Info.plist */,
+				17EAA5561AF8389600E3B061 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17EAA5721AF8389600E3B061 /* Galactic CourierTests */ = {
+			isa = PBXGroup;
+			children = (
+				17EAA5751AF8389600E3B061 /* Galactic_CourierTests.m */,
+				17EAA5731AF8389600E3B061 /* Supporting Files */,
+			);
+			path = "Galactic CourierTests";
+			sourceTree = "<group>";
+		};
+		17EAA5731AF8389600E3B061 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17EAA5741AF8389600E3B061 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17EAA5501AF8389600E3B061 /* Galactic Courier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EAA5791AF8389600E3B061 /* Build configuration list for PBXNativeTarget "Galactic Courier" */;
+			buildPhases = (
+				17EAA54D1AF8389600E3B061 /* Sources */,
+				17EAA54E1AF8389600E3B061 /* Frameworks */,
+				17EAA54F1AF8389600E3B061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Galactic Courier";
+			productName = "Galactic Courier";
+			productReference = 17EAA5511AF8389600E3B061 /* Galactic Courier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17EAA56E1AF8389600E3B061 /* Galactic CourierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EAA57C1AF8389600E3B061 /* Build configuration list for PBXNativeTarget "Galactic CourierTests" */;
+			buildPhases = (
+				17EAA56B1AF8389600E3B061 /* Sources */,
+				17EAA56C1AF8389600E3B061 /* Frameworks */,
+				17EAA56D1AF8389600E3B061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17EAA5711AF8389600E3B061 /* PBXTargetDependency */,
+			);
+			name = "Galactic CourierTests";
+			productName = "Galactic CourierTests";
+			productReference = 17EAA56F1AF8389600E3B061 /* Galactic CourierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17EAA5491AF8389600E3B061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Jeremiah.Bonham;
+				TargetAttributes = {
+					17EAA5501AF8389600E3B061 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					17EAA56E1AF8389600E3B061 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 17EAA5501AF8389600E3B061;
+					};
+				};
+			};
+			buildConfigurationList = 17EAA54C1AF8389600E3B061 /* Build configuration list for PBXProject "Galactic Courier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17EAA5481AF8389600E3B061;
+			productRefGroup = 17EAA5521AF8389600E3B061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17EAA5501AF8389600E3B061 /* Galactic Courier */,
+				17EAA56E1AF8389600E3B061 /* Galactic CourierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17EAA54F1AF8389600E3B061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EAA56A1AF8389600E3B061 /* LaunchScreen.xib in Resources */,
+				177A49161AFC55470068F7A9 /* thruster.mp3 in Resources */,
+				177A49121AFC547D0068F7A9 /* repair.png in Resources */,
+				17EAA5671AF8389600E3B061 /* Images.xcassets in Resources */,
+				177A490E1AFC51980068F7A9 /* hit.mp3 in Resources */,
+				177A49071AFC48B20068F7A9 /* asteroid.png in Resources */,
+				177A49051AFC38670068F7A9 /* bg1.jpg in Resources */,
+				17EAA55F1AF8389600E3B061 /* GameScene.sks in Resources */,
+				17EAA5651AF8389600E3B061 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EAA56D1AF8389600E3B061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17EAA54D1AF8389600E3B061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EAA5621AF8389600E3B061 /* GameViewController.m in Sources */,
+				17EAA55A1AF8389600E3B061 /* AppDelegate.m in Sources */,
+				17EAA55D1AF8389600E3B061 /* GameScene.m in Sources */,
+				17EAA5571AF8389600E3B061 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EAA56B1AF8389600E3B061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EAA5761AF8389600E3B061 /* Galactic_CourierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17EAA5711AF8389600E3B061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17EAA5501AF8389600E3B061 /* Galactic Courier */;
+			targetProxy = 17EAA5701AF8389600E3B061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17EAA5631AF8389600E3B061 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17EAA5641AF8389600E3B061 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17EAA5681AF8389600E3B061 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17EAA5691AF8389600E3B061 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17EAA5771AF8389600E3B061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17EAA5781AF8389600E3B061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17EAA57A1AF8389600E3B061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Galactic Courier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17EAA57B1AF8389600E3B061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Galactic Courier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17EAA57D1AF8389600E3B061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Galactic CourierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Galactic Courier.app/Galactic Courier";
+			};
+			name = Debug;
+		};
+		17EAA57E1AF8389600E3B061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Galactic CourierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Galactic Courier.app/Galactic Courier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17EAA54C1AF8389600E3B061 /* Build configuration list for PBXProject "Galactic Courier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EAA5771AF8389600E3B061 /* Debug */,
+				17EAA5781AF8389600E3B061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EAA5791AF8389600E3B061 /* Build configuration list for PBXNativeTarget "Galactic Courier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EAA57A1AF8389600E3B061 /* Debug */,
+				17EAA57B1AF8389600E3B061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EAA57C1AF8389600E3B061 /* Build configuration list for PBXNativeTarget "Galactic CourierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EAA57D1AF8389600E3B061 /* Debug */,
+				17EAA57E1AF8389600E3B061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17EAA5491AF8389600E3B061 /* Project object */;
+}

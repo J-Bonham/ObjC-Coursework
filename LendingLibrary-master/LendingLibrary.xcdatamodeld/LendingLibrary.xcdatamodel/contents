@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Item" representedClassName="Item" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" defaultDateTimeInterval="410270400" defaultValueString="2014-01-01" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" defaultValueString="Email" syncable="YES"/>
+        <attribute name="length" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" defaultValueString="Name" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" defaultValueString="Title" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" defaultValueString="Movie" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Item" positionX="-63" positionY="-18" width="128" height="150"/>
+    </elements>
+</model>

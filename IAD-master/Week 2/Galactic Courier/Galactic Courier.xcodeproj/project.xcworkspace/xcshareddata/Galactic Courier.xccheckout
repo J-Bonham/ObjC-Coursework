@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0531C6F4-A601-48D8-8D2C-E10CB36FA3F2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Galactic Courier</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E15DF72405080CC0119F8B9A08427C366F89C9B4</key>
+		<string>https://github.com/b15021/IAD.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Week 2/Galactic Courier/Galactic Courier.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E15DF72405080CC0119F8B9A08427C366F89C9B4</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/b15021/IAD.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E15DF72405080CC0119F8B9A08427C366F89C9B4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E15DF72405080CC0119F8B9A08427C366F89C9B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IAD</string>
+		</dict>
+	</array>
+</dict>
+</plist>
